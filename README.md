@@ -1,7 +1,7 @@
-   42-test
+   42-test - by seabrus
 ===========================
 
-A Django 1.8+ project
+A Django 1.9+ project
 
 Use fortytwo_test_task.settings when deploying with getbarista.com
 
