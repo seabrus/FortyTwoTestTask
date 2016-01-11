@@ -1,6 +1,7 @@
 *.sqlite3
 *.pyc
 *.pyo
+__pycache__
 *.swp
 *.swo
 *.swn
@@ -15,3 +16,4 @@ media
 static
 *.dat
 .env
+node_modules/*

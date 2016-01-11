@@ -3,7 +3,7 @@ from django.test import TestCase
 # Create your tests here.
 
 
-class SomeTests(TestCase):
+class SanityTests(TestCase):
     def test_math(self):
-        "put docstrings in your tests"
+        """ Sanity test """
         assert(2 + 2 == 5)
