@@ -13,5 +13,5 @@ Use fortytwo_test_task.settings when deploying with getbarista.com
 * use settings.local for different environments
 * common templates live in templates/
 * common static lives in assets/
-* management commands should be proxied to single word make commands, e.g. make test
+* management commands are proxied to single word make commands, e.g., make test
 
