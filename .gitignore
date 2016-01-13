@@ -12,8 +12,7 @@ __pycache__
 git_ignore
 build
 .noseids
-media
-static
 *.dat
 .env
 node_modules/*
+.coverage

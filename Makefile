@@ -1,10 +1,10 @@
-default: run
+default: test18
 
 MANAGE=django-admin.py
 SETTINGS=fortytwo_test_task.settings
 
 test18:
-    python manage.py test
+	python manage.py test
 
 mm:
 	python manage.py makemigrations
@@ -25,4 +25,4 @@ migrate:
 collectstatic:
 	PYTHONPATH=`pwd` DJANGO_SETTINGS_MODULE=$(SETTINGS) $(MANAGE) collectstatic --noinput
 
-.PHONY: test syncdb migrate
+.PHONY: test syncdb migrate mm test18
